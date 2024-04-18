@@ -1,0 +1,27 @@
+.item-container {
+    box-sizing: border-box;
+    position: relative;
+    width: 250px;
+    height: 130px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 1px solid black;
+    padding: 20px;
+}
+
+.delete {
+    position: absolute;
+    right: -12.5px;
+    top: -12.5px;
+    width: 25px;
+    height: 25px;
+    display:flex;
+    align-items:center;
+    vertical-align: center;
+    justify-content: center;
+    border: 1px solid black;
+    border-radius: 50%;
+    cursor: pointer;
+    background-color: white;
+    z-index: 3;
+}
