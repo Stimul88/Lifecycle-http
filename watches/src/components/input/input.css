@@ -1,13 +1,13 @@
-.input-name {
+.input-city {
     margin-top: 10px;
     height: 25px;
-    width: 120px;
+    width: 130px;
     border: 1px solid #1a1a1a;
 }
 
-.input-time-zone {
+.input-timeZone {
     margin-top: 10px;
     height: 25px;
-    width: 120px;
+    width: 130px;
     border: 1px solid #1a1a1a;
 }

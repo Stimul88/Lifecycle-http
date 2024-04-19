@@ -1,4 +1,4 @@
-import { Top } from './top/Top.tsx'
-import { Watches } from './watches/Watches.tsx'
+import { Watches } from './watches/Watches.jsx'
+import { Input } from './input/Input.jsx'
 
-export { Top, Watches }
+export { Watches, Input }
