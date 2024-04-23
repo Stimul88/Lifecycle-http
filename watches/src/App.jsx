@@ -45,13 +45,14 @@ function App() {
     }
 
     const deleteElement = (city) => {
+      console.log(city)
 
       if (watches.length === 1) {
         setWatches([])
         return
       }
 
-      setWatches(watches.filter(item =>item.city === city))
+      setWatches(watches.filter(item => item.city !== city))
     }
 
 
