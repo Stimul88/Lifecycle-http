@@ -48,12 +48,12 @@ function App() {
 
 
   const getApiData = async () => {
-    const response = await fetch(
-      `${server}/notes/`
-    ).then((response) => response.json());
+    const response = await fetch(`${server}/notes/`)
+
+    const result = await response.json();
 
     // Обновим состояние
-    setUsers(response);
+    setUsers(result);
   };
 
   const inputChange = (e) => {
